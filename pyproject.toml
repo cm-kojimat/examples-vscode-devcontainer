@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "examples-vscode-devcontainer"
+version = "0.1.0"
+description = ""
+authors = ["cm-kojimat <kojima.takashi@classmethod.jp>"]
+readme = "README.md"
+packages = [{include = "examples_vscode_devcontainer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
