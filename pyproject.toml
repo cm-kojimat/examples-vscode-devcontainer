@@ -8,6 +8,7 @@ packages = [{include = "examples_vscode_devcontainer"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+boto3 = "^1.25.5"
 
 
 [build-system]
